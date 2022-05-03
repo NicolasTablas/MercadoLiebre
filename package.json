@@ -1,0 +1,24 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasTablas/MercadoLiebre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasTablas/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/NicolasTablas/MercadoLiebre#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^17.7.2"
+  }
+}

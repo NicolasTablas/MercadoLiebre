@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+/* Header */
+
+.header-main {
+    background-color: #EAC926;
+    padding: 2%;
+}
+
+.header-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header div.ml-logo {
+    padding: 10px;
+}
+
+/* verificar width */
+header div.ml-logo {
+    width: 50%;
+}
+
+header .form{
+    width: 50%
+}
+
+header div.form {
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+header .form .input {
+    outline: none;
+    color: #666;
+    padding: 2px;
+    text-align: center;
+    width: 90%;
+}
+
+header .form .submit{
+    margin-left: auto;
+    padding: 2px;
+    border-left: 1px solid #666;
+    color: #666;
+    width: 10%;
+    text-align: center; 
+    }
+
+header div.credit-card {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    padding: 3px;
+}
+    
+
+.navbars {
+    font-size: 12px;
+    display: none;
+}
+
+.navbars ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbars ul li a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #03264C;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+}
+
+/* Main */
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h4 {
+    font-size: 16px;
+    text-align: left;
+}
+
+form input, .text {
+    border: none;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: #fff;
+    width: 95%;
+    padding: 10px;
+    color: gray;
+    font-family: "roboto";
+}
+
+.reg-info {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    padding: 3px;
+}
+ 
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.profile input {
+    width: 15px;
+}
+
+.interests {
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.interests input {
+    width: 10%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons-button {
+    width: 20%;
+    background-color: #03264C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 650ms;
+}
+
+.button:hover{
+    background-color: #fff;
+    color:#03264C;
+    border: 1px solid black;
+}
+
+
+
+/* Footer */
+
+footer {
+    padding-top: 15px;
+    background-color: #EAC926;
+    text-align: center;
+    color: #666;
+}
+
+footer article {
+    margin: 10px;
+}
+
+footer article i {
+    color: #03264C;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+footer article h4 {
+    font-size: 18px;
+ }
+
+footer p {
+    font-size: 14px;
+    margin: 5px;
+ }
+
+
+ @media (min-width: 768px) {
+    .header-top {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header div.ml-logo {
+        width: 40%;
+        margin-right: 10px;
+    }
+    
+    header div.form {
+        font-size: 18px;
+    }
+    
+    header .form .input{
+       font-size: 16px;
+    }
+
+    header .form .submit{
+     font-size: 16px;
+    }
+    
+    header div.credit-card {
+        margin-left: 10px;
+        width: 20%;
+        font-size: 16px;
+    }
+
+    div.burger-menu{
+        display: none;
+    }
+
+    .navbars {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .navbars ul {
+        display: flex;
+      }
+
+    .navbars ul li {
+        margin: 0 5px;
+      }
+    
+    .navbars ul li i {
+       padding: 0 3px;
+      }
+
+    .description {
+        display: block;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+      footer article {
+        width: 28%;
+    }
+
+    footer p {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-main {
+      padding: 0 100px;
+    }
+    header div.ml-logo {
+        width: 20%;
+    }
+    
+    header div.form {
+        font-size: 18px;
+    }
+    
+    header .form .input{
+       font-size: 18px;
+    }
+
+    header .form .submit{
+     font-size: 16px;
+    }
+    
+    div.credit-card {
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .navbars {
+        font-size: 12px;
+        display: flex;
+    }
+
+}
+
+
